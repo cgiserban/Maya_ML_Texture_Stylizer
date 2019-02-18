@@ -8,6 +8,21 @@ The tool is based on:
 * Leon A. Gatys' [A Neural Algorithm of Artistic Style](https://arxiv.org/abs/1508.06576)
 * Justin Johnson's [Perceptual Losses for Real-Time Style Transfer and Super-Resolution](http://cs.stanford.edu/people/jcjohns/eccv16)
 
+#### Contents:
+
+    ├── runStyleTransfer.py       # Main script which runs in Maya.  
+    ├── StyleTransfer             # Style transfer directory.    
+    │   ├── input                 # Default input files directory.  
+    │   ├── output                # Default output files directory.   
+    │   ├── style                 # Trained model files directory.    
+    │   ├── virtualEnviornment    # Virtual Environment containing the dependencies.    
+    │   ├── ImageIO.py            # Image handling utilities.    
+    │   ├── run.py                # Argument parser and main loop.    
+    │   ├── runStyleTransfer.sh   # Bash script used to link Maya to the command-line tool and back.    
+    │   ├── transform.py          # Neural network configurator.    
+    │   └── styleTransfer.py      # Style transfer session handler.    
+    └── 
+
 #### Sample results
 
 TODO: Post renders here.
