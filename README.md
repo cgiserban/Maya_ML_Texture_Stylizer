@@ -1,2 +1,9 @@
-# Maya_ML_Texture_Stylizer
-A texture stylizer tool which uses machine learning and Maya for the pre-vizualization of stylized scenes.
+# Maya Machine Learning Texture Stylizer
+
+Description
+---
+
+This is a texture stylizer tool which uses machine learning and Maya for stylizing scenes in minutes.
+It it developed to mainly be used for pre-vizualization and texturing.
+
+---
