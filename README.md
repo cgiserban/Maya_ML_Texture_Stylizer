@@ -6,7 +6,7 @@ A Maya Texture Stylization tool which can be used for fast pre-visualisation of 
 
 The tool is based on:
 * Leon A. Gatys' [A Neural Algorithm of Artistic Style](https://arxiv.org/abs/1508.06576)
-* Justin Johnson's [Perceptual Losses for Real-Time Style Transfer and Super-Resolution](http://cs.stanford.edu/people/jcjohns    /eccv16/)
+* Justin Johnson's [Perceptual Losses for Real-Time Style Transfer and Super-Resolution](http://cs.stanford.edu/people/jcjohns/eccv16)
 
 #### Sample results
 
