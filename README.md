@@ -1,13 +1,16 @@
-# Maya Machine Learning Texture Stylizer
+# Maya Texture Stylization Framework using  Machine Learning
 
 Description
 ---
+A Maya Texture Stylization tool which can be used for fast pre-visualisation of different styles and texturing/look development purposes. This tool was created as an assignment for the final years' "Innovations" unit.
 
-A Maya texture stylizing tool based on:
+The tool is based on:
 * Leon A. Gatys' [A Neural Algorithm of Artistic Style](https://arxiv.org/abs/1508.06576)
 * Justin Johnson's [Perceptual Losses for Real-Time Style Transfer and Super-Resolution](http://cs.stanford.edu/people/jcjohns    /eccv16/)
 
 #### Sample results
+
+TODO: Post renders here.
 
 #### Models Available
 The trained models should be placed under StyleTransfer/style/. For keeping this repository light they are not included by default. You can download the 6 trained models from [here](https://mega.nz/#F!VEAm1CDD!ILTR1TA5zFJ_Cp9I5DRofg).
@@ -39,10 +42,14 @@ python styleTransfer.py --input <path_to_content_file> --model <path_to_model_fi
 
 The implementation is based on:
 
-[1] Hwalsuk Lee's [Fast Style Transfer](https://github.com/hwalsuklee/tensorflow-fast-style-transfer)
+[1] Hwalsuk Lee's [Fast Style Transfer](https://github.com/hwalsuklee/tensorflow-fast-style-transfer).
 
-[2] Shafeen Tejani's article [Style Transfer in Real-Time](https://shafeentejani.github.io/2017-01-03/fast-style-transfer/)
+[2] Shafeen Tejani's article [Style Transfer in Real-Time](https://shafeentejani.github.io/2017-01-03/fast-style-transfer/).
+
+[3] Harish Narayanan's article [Convolutional Neural Networks For Artistic Style Transfer](https://harishnarayanan.org/writing/artistic-style-transfer/).
 
 
-## Acknowledgements
+## Acknowledgements and Thanks
 This implementation has been tested on the Bournemouth University(NCCA) Redhat systems using Tensorflow 1.12 and Maya 2018.
+
+Thanks for the guidance offered during this project by Dr. Hongchuang Yu and the Bournemouth University's Demonstrators.
