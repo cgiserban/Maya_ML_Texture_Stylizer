@@ -117,7 +117,7 @@ selectedStyle = []
 
 def createUI():
 
-    windowID = 'Texture Stylizer'        
+    windowID = 'Texture Stylizer'
     styleList = ['LaMuse','RainPrincess','ShipWreck','TheScream','Udnie','Wave']
    
     # Style Change Command #
