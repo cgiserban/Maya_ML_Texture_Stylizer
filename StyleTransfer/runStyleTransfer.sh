@@ -21,7 +21,6 @@ export PATH=$PATH:/$RMANTREE/bin
 
 #Set-up the virtualenv
 
-virtualenv $PROJECT_PATH/StyleTransfer/virtualEnvironment
 source $PROJECT_PATH/StyleTransfer/virtualEnvironment/bin/activate
 cd $PROJECT_PATH/StyleTransfer
 
@@ -64,4 +63,3 @@ do
 	python run.py --model $STYLE_PATH --input ${array[i]} --output $PROJECT_PATH/convertedTX/$exportname
 #	python run.py --model $PROJECT_PATH/StyleTransfer/style/la_muse.ckpt --input ${array[i]} --output $PROJECT_PATH/convertedTX/$exportname
 done
-
