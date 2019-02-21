@@ -37,11 +37,6 @@ A complete list with the dependencies available on a test system:
 #### Models Available
 The trained models should be placed under StyleTransfer/style/. For keeping this repository light they are not included by default. You can download the 6 trained models from [here](https://mega.nz/#F!VEAm1CDD!ILTR1TA5zFJ_Cp9I5DRofg).
 
-
-#### Sample results
-
-TODO: Post renders here.
-
 Installing and Running the tool
 ---
 
